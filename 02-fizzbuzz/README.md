@@ -5,20 +5,20 @@
 
 | P  | Q  | P && Q | P \|\| Q |
 |:--:|:--:|:------:|:--------:|
-| T  | T  |    T   |          |
-| T  | F  |    F   |          |
-| F  | T  |    F   |          |
-| F  | F  |    F   |          |
+| T  | T  |    T   |    T     |
+| T  | F  |    F   |    T     |
+| F  | T  |    F   |    T     |
+| F  | F  |    F   |    F     |
 
 
 2. Prove a version of DeMorgan's Law:
 
 | P  | Q  | P \|\| Q | ! (P \|\| Q) | !P | !Q | !P && !Q |
 |:--:|:--:|:--------:|:------------:|:--:|:--:|:--------:|
-| T  | T  |          |              |    |    |          |
-| T  | F  |          |              |    |    |          |
-| F  | T  |          |              |    |    |          |
-| F  | F  |          |              |    |    |          |
+| T  | T  |    T     |       F      | F  |  F |     F    |
+| T  | F  |    T     |       F      | F  |  T |     F    |
+| F  | T  |    T     |       F      | T  |  F |     F    |
+| F  | F  |    F     |       T      | T  |  T |     T    |
 
 3. What does DeMorgan's state and how did you prove it for the case above?
-  * **YOUR WRITING HERE**
+  * DeMorgan states that either variables are linked by or(\\) is true when one of them is true. When it is linked by and (&&), both variables have to be       true in order to be true.
