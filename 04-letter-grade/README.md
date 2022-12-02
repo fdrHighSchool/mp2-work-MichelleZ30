@@ -5,12 +5,12 @@
   * Attach a "+" on their grade if the grade ends in a 7, 8 or 9 (eg: 78 -> C+, 89 -> B+)
   * Attach a "-" on their grade if the grade ends in a 0, 1 or 2 (eg: 92 -> A-, 61 -> D-)
 
-    * **YOUR WRITING HERE**
+    * Divide the number by 10 to get the last digit with mod. When the last digit it 7,8, and 9 it is a "+". When last digit is 0,1, and 2 it is "-".
 
 
 2. Discuss how you would make sure 100 is not misrepresented as an A-.
-  * **YOUR WRITING HERE**
+  * Out a >= sign if the number is more to equal to A+.
 
 
 3. Discuss how you would make sure grades that are an F are not mislabeled as F- or F+ (eg: 49 -> F+ and 52 -> F-)
-  * **YOUR WRITING HERE**
+  * Outside of the inner if statements out a else statment to classify any failed grades as F.
