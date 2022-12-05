@@ -6,4 +6,11 @@ Outline an algorithm to determine whether or not a number is prime.
 Think of the following method header:
 `public static boolean isPrime(int num)`
 
-  * public static boolean isPrime(
+  * public static boolean isPrime (int num, int q) {
+  return false;
+  if (num % num == 1 && num = num){
+  return true;
+  }
+  else if (num % int_random == q) {
+  return false;
+  }
