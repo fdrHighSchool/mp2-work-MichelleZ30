@@ -38,3 +38,18 @@ class Main {
 
 
 //spicy 2 question 
+class Main {
+  public static void main(String[] args) {
+  String hi = "ABChi hi";
+  System.out.println(countHi(hi));
+  }
+  public static int countHi (String hi) {
+    int num = 0;
+    for (int i = 0; i <= hi.length() - 2;i++) {
+      if (hi.substring(i, i+2).equals("hi")) {
+        num++;
+      }
+    }
+   return num;
+  }
+}
